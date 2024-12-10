@@ -2,4 +2,47 @@
 p{
     font-family: "SF Mono", serif;
     font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-family: "SF Mono", serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.mainContainer{
+    width: 1056px;
+    height: 1056px;
+    margin: 0 auto;
+}
+
+.navigationBar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+
+}
+.navigationBarRightItems{
+    display: flex;
+}
+
+.navigationBarText{
+    font-size: 16px;
+}
+
+.underlined{
+    text-decoration:underline
+}
+
+.navigationBarAbout{
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.resume{
+    margin-right: 48px;
 }
