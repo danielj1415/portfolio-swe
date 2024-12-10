@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom'
 import './HomePage.css'
 
@@ -7,7 +6,7 @@ function HomePage() {
         <div>
             <div className="mainContainer">
                 <div className="navigationBar">
-                    <Link className="navigationBarText SFMonoBold" to="/">Daniel Jong</Link>
+                    <Link className="navigationBarText" to="/">Daniel Jong</Link>
                     <div className="navigationBarRightItems">
                         <Link className="navigationBarText underlined" to="/">Work</Link>
                         <Link className="navigationBarAbout" to="/about">About</Link>
