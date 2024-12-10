@@ -3,7 +3,8 @@ import imageDaniel from "./assets/images/danieljong.png"
 import iconGithub from "./assets/images/iconGithub.png"
 import iconLinkedIn from "./assets/images/iconLinkedIn.png"
 import imagePlantProjectCover from "./assets/images/imagePlantProjectCover.png"
-import imageSpotifyProjectCover from "./assets/images/imageSpotifyProjectCover.png";
+import imageSpotifyProjectCover from "./assets/images/imageSpotifyProjectCover2.png";
+import imageNintendoProjectCover from "./assets/images/imageNintendoProjectCover.png";
 import './HomePage.css'
 
 function HomePage() {
@@ -18,7 +19,7 @@ function HomePage() {
                         <Link className="navigationBarText underlined" to="/">Work</Link>
                         <Link className="navigationBarAbout" to="/about">About</Link>
                         <a className="navigationBarText resume"
-                           href="https://docs.google.com/document/d/12nxaGq7QP7QM-EPaiysvYYUrQqJ_O-GYS3DdN2PZnwk/edit?usp=sharing"
+                           href="https://drive.google.com/file/d/14IRxglcZqY8M6Pa2-1-_tVNFMtTbrYKR/view?usp=sharing"
                            target="_blank" rel="noopener noreferrer">Resume</a>
                         <a className="navigationBarText" href="mailto:danielj1415@gmail.com">Contact</a>
                     </div>
@@ -82,6 +83,29 @@ function HomePage() {
                             <img src={imageSpotifyProjectCover} className="projectImageSpotify"/>
                         </Link>
                     </div>
+                    {/*Project: Nintendo Switch Home Screen Redesign*/}
+                    <div className="projectContainer">
+                        <div className="projectText">
+                            <Link to="/plant">
+                                <p className="projectName">Nintendo Switch Home Screen Redesign</p>
+                            </Link>
+                            <div className="projectTagContainer">
+                                <div className="projectTagNintendo">
+                                    <p className="projectTagText">Web Development</p>
+                                </div>
+                                <div className="projectTagNintendo">
+                                    <p className="projectTagText">UI Design</p>
+                                </div>
+                            </div>
+                            <div className="projectDescriptionContainer">
+                                <p className="projectDescriptionText">Website that aims to replicate the functionality
+                                    and interface of the Spotify Web Player. </p>
+                            </div>
+                        </div>
+                        <Link to="/spotify">
+                            <img src={imageNintendoProjectCover} className="projectImageSpotify"/>
+                        </Link>
+                    </div>
                 </div>
 
                 {/*Footer Section*/}
@@ -93,7 +117,7 @@ function HomePage() {
                         <p className="footerEmail">email: danielj1415@gmail.com</p>
                         <p className="footerPhone">phone: (626) 518-2422</p>
                         <div className="iconContainer">
-                            <a href="https://www.linkedin.com/in/daniel-jong-002891209/" target="_blank">
+                            <a href="https://www.linkedin.com/in/daniel-jong-swe-ux/" target="_blank">
                                 <img src={iconLinkedIn} className="imageIcon" alt="LinkedIn Profile"/>
                             </a>
                             <a href="https://github.com/danielj1415" target="_blank">

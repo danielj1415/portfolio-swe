@@ -119,6 +119,13 @@ a{
     margin-right: 8px
 }
 
+.projectTagNintendo{
+    background-color: #BFBAF6;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 8px
+}
+
 .projectTagText{
     font-size: 14px;
 }
