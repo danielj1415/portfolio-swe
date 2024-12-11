@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import imageDaniel from "./assets/images/danieljong.png"
-import iconGithub from "./assets/images/iconGithub.png"
-import iconLinkedIn from "./assets/images/iconLinkedIn.png"
+import iconGithub from "./assets/images/iconGithub.svg"
+import iconLinkedIn from "./assets/images/iconLinkedIn.svg"
 import imagePlantProjectCover from "./assets/images/imagePlantProjectCover.png"
 import imageSpotifyProjectCover from "./assets/images/imageSpotifyProjectCover2.png";
 import imageNintendoProjectCover from "./assets/images/imageNintendoProjectCover.png";
@@ -98,8 +98,7 @@ function HomePage() {
                                 </div>
                             </div>
                             <div className="projectDescriptionContainer">
-                                <p className="projectDescriptionText">Website that aims to replicate the functionality
-                                    and interface of the Spotify Web Player. </p>
+                                <p className="projectDescriptionText">Website that features a new home screen with functionality to change the wallpaper.  </p>
                             </div>
                         </div>
                         <Link to="/spotify">
