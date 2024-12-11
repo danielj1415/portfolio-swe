@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://danielj1415.github.io/portfolio-we",
+  "homepage": "https://danielj1415.github.io/portfolio-swe",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

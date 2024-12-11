@@ -63,26 +63,7 @@ function HomePage() {
                             <img src={imagePlantProjectCover} className="projectImagePlant"/>
                         </Link>
                     </div>
-                    {/*Project: Spotify Clone Website*/}
-                    <div className="projectContainer">
-                        <div className="projectText">
-                            <Link to="/plant">
-                                <p className="projectName">Spotify Clone Website</p>
-                            </Link>
-                            <div className="projectTagContainer">
-                                <div className="projectTagSpotify">
-                                    <p className="projectTagText">Web Development</p>
-                                </div>
-                            </div>
-                            <div className="projectDescriptionContainer">
-                                <p className="projectDescriptionText">Website that aims to replicate the functionality
-                                    and interface of the Spotify Web Player. </p>
-                            </div>
-                        </div>
-                        <Link to="/spotify">
-                            <img src={imageSpotifyProjectCover} className="projectImageSpotify"/>
-                        </Link>
-                    </div>
+
                     {/*Project: Nintendo Switch Home Screen Redesign*/}
                     <div className="projectContainer">
                         <div className="projectText">
@@ -103,6 +84,27 @@ function HomePage() {
                         </div>
                         <Link to="/spotify">
                             <img src={imageNintendoProjectCover} className="projectImageSpotify"/>
+                        </Link>
+                    </div>
+
+                    {/*Project: Spotify Clone Website*/}
+                    <div className="projectContainer">
+                        <div className="projectText">
+                            <Link to="/plant">
+                                <p className="projectName">Spotify Clone Website</p>
+                            </Link>
+                            <div className="projectTagContainer">
+                                <div className="projectTagSpotify">
+                                    <p className="projectTagText">Web Development</p>
+                                </div>
+                            </div>
+                            <div className="projectDescriptionContainer">
+                                <p className="projectDescriptionText">Website that aims to replicate the functionality
+                                    and interface of the Spotify Web Player. </p>
+                            </div>
+                        </div>
+                        <Link to="/spotify">
+                            <img src={imageSpotifyProjectCover} className="projectImageSpotify"/>
                         </Link>
                     </div>
                 </div>

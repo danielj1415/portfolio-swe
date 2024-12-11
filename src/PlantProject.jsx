@@ -20,15 +20,17 @@ function PlantProject() {
             <div className = "mainContainer">
                 <div className = "navigationBar">
                     <Link className = "navigationBarText" to ="/">Daniel Jong</Link>
-                    <div className = "navigationBarRightItems">
-                        <Link className = "navigationBarText underlined" to ="/">Work</Link>
-                        <Link className = "navigationBarAbout" to="/about">About</Link>
-                        <a className="navigationBarText resume" href="https://docs.google.com/document/d/12nxaGq7QP7QM-EPaiysvYYUrQqJ_O-GYS3DdN2PZnwk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
-                        <a className ="navigationBarText" href = "mailto:danielj1415@gmail.com">Contact</a>
+                    <div className="navigationBarRightItems">
+                        <Link className="navigationBarText underlined" to="/">Work</Link>
+                        <Link className="navigationBarAbout" to="/about">About</Link>
+                        <a className="navigationBarText resume"
+                           href="https://drive.google.com/file/d/14IRxglcZqY8M6Pa2-1-_tVNFMtTbrYKR/view?usp=sharing"
+                           target="_blank" rel="noopener noreferrer">Resume</a>
+                        <a className="navigationBarText" href="mailto:danielj1415@gmail.com">Contact</a>
                     </div>
                 </div>
-                <div className = "projectContentContainer">
-                    <div className = "projectContentContainerTitleInfo">
+                <div className="projectContentContainer">
+                    <div className="projectContentContainerTitleInfo">
                         <div className = "projectContentTitleHeading">
                             <p className = "bold px44 marginBottom4px">Plant Hydroponics App</p>
                             <p className = "px16 test">A mobile application used in conjunction with an electronic device that allows users to to track and set the pH value of water in a hydroponic system.</p>
