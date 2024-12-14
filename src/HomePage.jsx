@@ -82,7 +82,7 @@ function HomePage() {
                                 <p className="projectDescriptionText">Website that features a new home screen with functionality to change the wallpaper.  </p>
                             </div>
                         </div>
-                        <Link to="/spotify">
+                        <Link to="/nintendo">
                             <img src={imageNintendoProjectCover} className="projectImageSpotify"/>
                         </Link>
                     </div>

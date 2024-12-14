@@ -6,6 +6,7 @@ import AboutMePage from "./AboutMePage.jsx";
 import PlantProject from "./PlantProject.jsx";
 import SpotifyProject from "./SpotifyProject.jsx";
 import ScrollToTop from "./ScrollToTop.js";
+import NintendoProject from "./NintendoProject.jsx";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Route path="/about" element={<AboutMePage/>}></Route>
             <Route path="/plant" element={<PlantProject/>}></Route>
             <Route path="/spotify" element={<SpotifyProject/>}></Route>
+            <Route path="/nintendo" element={<NintendoProject/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

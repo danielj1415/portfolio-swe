@@ -3,6 +3,10 @@
     margin-top: 120px;
 }
 
+.projectContentTools{
+    width: 260px;
+}
+
 .SFMonoRegular{
     font-family: "SF Mono";
     font-weight: 400;
@@ -49,6 +53,11 @@
     width: 1056px;
     height: 538px;
     margin-top: 48px;
+}
+
+.imageNintendoProject{
+    width: 1056px;
+    height: 538px;
 }
 
 .dividerOverview{
@@ -103,6 +112,10 @@
 
 .bigParagraph{
     width: 1000px;
+}
+
+.mediumParagraph{
+    width: 820px;
 }
 
 .marginTop8px{
