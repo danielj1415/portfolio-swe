@@ -8,6 +8,10 @@ import imageComponentMusicMenu from "./assets/images/imageComponentMusicMenu.png
 import imageComponentMainPage from "./assets/images/imageComponentMainPage.png";
 import imageComponentInteractionDiagram from "./assets/images/imageComponentInteractionDiagram.png";
 import videoSpotifyProjectDemo from "./assets/images/videoSpotifyProjectDemo.mp4";
+import imageNintendoProjectHomeScreen from "./assets/images/imageNintendoProjectHomeScreen.png";
+import imageNintendoProjectSettingsScreen from "./assets/images/imageNintendoProjectSettingsScreen.png";
+import imageNintendoProjectAlbumScreen from "./assets/images/imageNintendoProjectAlbumScreen.png";
+import imageNintendoProjectPhotoScreen from "./assets/images/imageNintendoProjectPhotoScreen.png";
 
 import { Link } from "react-router-dom";
 import "./NintendoProject.css";
@@ -65,7 +69,6 @@ function PlantProject() {
                         <p className="bold px40 marginBottom8px">Design Process</p>
                         <div className="dividerDevelopment"></div>
                     </div>
-
                     <p className="semibold px30">Research and Recreation</p>
                     <p className="mediumParagraph">I started by taking screenshots of the Nintendo Switch’s home screen
                         to
@@ -82,6 +85,62 @@ function PlantProject() {
                         screen layout optimized for 1512px and 1920px resolutions. The final step in the design phase
                         was prototyping the user flow and interactions in Figma.</p>
                     <img className="imageNintendoProject marginTop20px" src={nintendoProjectImage}/>
+
+                    <div className="horizontalCenter marginTop72px">
+                        <p className="bold px40 marginBottom8px">Development Process</p>
+                        <div className="dividerDevelopment"></div>
+                    </div>
+                    <p className="semibold px30 marginTop16px marginBottom4px">Building the Home Screen</p>
+                    <div className="horizontalTop">
+                        <img className="nintendoProjectImageDevelopment" src={imageNintendoProjectHomeScreen}/>
+                        <p className="marginLeft24px nintendoProjectDevelopmentParagraph">Development began with the
+                            home screen, focusing on recreating the two-row structure: one for games and another for
+                            icons. My priority was ensuring smooth navigation between rows using arrow keys, replicating
+                            the intuitive experience of the Switch device. Once the navigation was solid, I incorporated
+                            the visual assets.</p>
+                    </div>
+                    <p className="semibold px30 marginTop24px marginBottom4px">Developing the Settings Screen</p>
+                    <div className="horizontalTop">
+                        <img className="nintendoProjectImageDevelopment" src={imageNintendoProjectSettingsScreen}/>
+                        <p className="marginLeft24px nintendoProjectDevelopmentParagraph">The settings screen presented
+                            a unique challenge. The left menu controls what the right menu displays, requiring logic to
+                            allow seamless navigation between these two sections. Additionally, certain left menu
+                            options restrict access to specific right menu items, adding complexity to the navigation
+                            logic.</p>
+                    </div>
+                    <p className="semibold px30 marginTop24px marginBottom4px">Creating the Album Screen</p>
+                    <div className="horizontalTop">
+                        <div>
+                            <img className="nintendoProjectImageDevelopment" src={imageNintendoProjectAlbumScreen}/>
+                        </div>
+                        <p className=" marginLeft24px nintendoProjectDevelopmentParagraph">The album screen, which
+                            displays saved images, was simpler to implement. I then developed a screen for viewing
+                            individual images and added functionality for users to set a selected photo as their new
+                            home screen wallpaper. This functionality seamlessly redirects users back to the home screen
+                            after their selection.</p>
+                    </div>
+                    <img className="nintendoProjectImageDevelopment" src={imageNintendoProjectPhotoScreen}/>
+                    <p className="semibold px30 marginTop24px marginBottom4px">Integrated Navigation</p>
+                    <div className="horizontalTop">
+                        <img className="nintendoProjectImageDevelopment" src={nintendoProjectImage}/>
+                        <p className="marginLeft24px nintendoProjectDevelopmentParagraph">The navigation system allows
+                            users to move directly from the home screen to the album screen, enhancing the flow and
+                            accessibility of the application. The image on the left show cases the user flow from the
+                            start to the finish.</p>
+                    </div>
+
+                    <p className="semibold px30 marginTop24px marginBottom4px">Navigating Through the Application</p>
+                    <div style={{position: "relative", paddingBottom: "56.25%", height: "0"}}>
+                        <iframe
+                            src="https://www.loom.com/embed/c59d8184e3bf49a2aaaeee59ef804791?sid=fbeefa67-43e4-4cf4-ab4c-30308a3f766e"
+                            frameBorder="0"
+                            webkitAllowFullScreen
+                            mozAllowFullScreen
+                            allowFullScreen
+                            style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+                        ></iframe>
+                    </div>
+
                     <div className="horizontalCenter marginTop72px">
                         <p className="bold px40 marginBottom8px">Conclusion</p>
                         <div className="dividerConclusion"></div>
@@ -99,22 +158,22 @@ function PlantProject() {
                         Spotify API: Potentially integrating the Spotify API to access real user data, playlists, and
                         music content, if feasible and permitted. </p>
                     <p className="semibold px30 marginTop48px marginBottom8px ">Links:</p>
-                    <a href="https://github.com/danielj1415/spotify-clone">Github</a>
+                    <a href="https://github.com/danielj1415/nintendoSwitchUI2">Github</a>
                 </div>
 
                 <div className="footerSection">
-                <div className = "footerLargeContainer">
-                        <div className = "footerTextContainer">
-                            <p className = "footerText">Turning ideas into designs and designs into code.</p>
+                    <div className="footerLargeContainer">
+                        <div className="footerTextContainer">
+                            <p className="footerText">Turning ideas into designs and designs into code.</p>
                         </div>
-                        <p className = "footerEmail">email: danielj1415@gmail.com</p>
-                        <p className = "footerPhone">phone: (626) 518-2422</p>
-                        <div className = "iconContainer">
+                        <p className="footerEmail">email: danielj1415@gmail.com</p>
+                        <p className="footerPhone">phone: (626) 518-2422</p>
+                        <div className="iconContainer">
                             <a href="https://www.linkedin.com/in/daniel-jong-002891209/" target="_blank">
-                                <img src={iconLinkedIn} class="imageIcon" alt="LinkedIn Profile"/>
+                                <img src={iconLinkedIn} className="imageIcon" alt="LinkedIn Profile"/>
                             </a>
                             <a href="https://github.com/danielj1415" target="_blank">
-                                <img src={iconGithub} class="imageIcon" alt="GitHub Profile"/>
+                                <img src={iconGithub} className="imageIcon" alt="GitHub Profile"/>
                             </a>
                         </div>
                     </div>
