@@ -5,6 +5,8 @@ import imageNintendoProjectHomeScreen from "./assets/images/imageNintendoProject
 import imageNintendoProjectSettingsScreen from "./assets/images/imageNintendoProjectSettingsScreen.png";
 import imageNintendoProjectAlbumScreen from "./assets/images/imageNintendoProjectAlbumScreen.png";
 import imageNintendoProjectPhotoScreen from "./assets/images/imageNintendoProjectPhotoScreen.png";
+import imageNintendoProjectIntegratedNavigation from "./assets/images/imageNintendoProjectIntegratedNavigation.png";
+import imageNintendoProjectFigma from "./assets/images/imageNintendoProjectFigma.png";
 
 import { Link } from "react-router-dom";
 import "./NintendoProject.css";
@@ -77,7 +79,7 @@ function PlantProject() {
                     <p className="mediumParagraph">Taking inspiration from various UI designs, I created a new home
                         screen layout optimized for 1512px and 1920px resolutions. The final step in the design phase
                         was prototyping the user flow and interactions in Figma.</p>
-                    <img className="imageNintendoProject marginTop20px" src={nintendoProjectImage}/>
+                    <img className="imageNintendoProject marginTop20px" src={imageNintendoProjectFigma}/>
 
                     <div className="horizontalCenter marginTop72px">
                         <p className="bold px40 marginBottom8px">Development Process</p>
@@ -115,7 +117,7 @@ function PlantProject() {
                     <img className="nintendoProjectImageDevelopment" src={imageNintendoProjectPhotoScreen}/>
                     <p className="semibold px30 marginTop24px marginBottom4px">Integrated Navigation</p>
                     <div className="horizontalTop">
-                        <img className="nintendoProjectImageDevelopment" src={nintendoProjectImage}/>
+                        <img className="nintendoProjectImageDevelopment" src={imageNintendoProjectIntegratedNavigation}/>
                         <p className="marginLeft24px nintendoProjectDevelopmentParagraph">The navigation system allows
                             users to move directly from the home screen to the album screen, enhancing the flow and
                             accessibility of the application. The image on the left show cases the user flow from the
