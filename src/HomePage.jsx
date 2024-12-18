@@ -8,6 +8,8 @@ import imageNintendoProjectCover from "./assets/images/imageNintendoProjectCover
 import './HomePage.css'
 
 function HomePage() {
+
+    let linkResume = "https://docs.google.com/document/d/1AmFg7y6hhbioQkH785nMljbgoPrlFj68/edit";
     return (
         <div>
             <div className="mainContainer">
@@ -19,7 +21,7 @@ function HomePage() {
                         <Link className="navigationBarText underlined" to="/">Work</Link>
                         <Link className="navigationBarAbout" to="/about">About</Link>
                         <a className="navigationBarText resume"
-                           href="https://drive.google.com/file/d/14IRxglcZqY8M6Pa2-1-_tVNFMtTbrYKR/view?usp=sharing"
+                           href={linkResume}
                            target="_blank" rel="noopener noreferrer">Resume</a>
                         <a className="navigationBarText" href="mailto:danielj1415@gmail.com">Contact</a>
                     </div>

@@ -5,6 +5,9 @@ import iconLinkedIn from "./assets/images/iconLinkedin.svg";
 import imageDaniel from "./assets/images/imageDaniel.png";
 
 function AboutMePage() {
+
+    let linkResume = "https://docs.google.com/document/d/1AmFg7y6hhbioQkH785nMljbgoPrlFj68/edit";
+
     return(
         <div>
             {/*Main Container*/}
@@ -16,7 +19,7 @@ function AboutMePage() {
                         <Link className="navigationBarText" to="/">Work</Link>
                         <Link className="navigationBarAbout underlined" to="/about">About</Link>
                         <a className="navigationBarText resume"
-                           href="https://drive.google.com/file/d/14IRxglcZqY8M6Pa2-1-_tVNFMtTbrYKR/view?usp=sharing"
+                           href={linkResume}
                            target="_blank" rel="noopener noreferrer">Resume</a>
                         <a className="navigationBarText" href="mailto:danielj1415@gmail.com">Contact</a>
                     </div>
