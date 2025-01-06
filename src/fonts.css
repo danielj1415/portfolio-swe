@@ -1,0 +1,40 @@
+
+/* SF Mono Regular */
+@font-face {
+    font-family: "SF Mono Regular";
+    src: url('./assets/fonts/SF-Mono-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* SF Mono Bold */
+@font-face {
+    font-family: "SF Mono Bold";
+    src: url('./assets/fonts/SF-Mono-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* SF Mono Light */
+@font-face {
+    font-family: "SF Mono Light";
+    src: url('./assets/fonts/SF-Mono-Light.otf') format('opentype');
+    font-weight: 300; /* Common weight for Light */
+    font-style: normal;
+}
+
+/* SF Mono Medium */
+@font-face {
+    font-family: "SF Mono Medium";
+    src: url('./assets/fonts/SF-Mono-Medium.otf') format('opentype');
+    font-weight: 500; /* Common weight for Medium */
+    font-style: normal;
+}
+
+/* SF Mono Semibold */
+@font-face {
+    font-family: "SF Mono SemiBold";
+    src: url('./assets/fonts/SF-Mono-Semibold.otf') format('opentype');
+    font-weight: 700; /* Common weight for semibold */
+    font-style: normal;
+}
