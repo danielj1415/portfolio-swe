@@ -20,6 +20,11 @@ Link{
     font-size: 16px;
 }
 
+.navigationBarAbout{
+    font-family: "SF Mono Regular", serif;
+    font-size: 16px;
+}
+
 /*Main Container*/
 .mainContainer{
     width: 1056px;

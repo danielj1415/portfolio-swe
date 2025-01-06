@@ -4,7 +4,10 @@ Link{
     font-family: "SF Mono Regular", serif;
     font-size: 16px;
 }
-
+.navigationBarAbout{
+    font-family: "SF Mono Regular", serif;
+    font-size: 16px;
+}
 .projectContentContainerTitleInfo{
     display:flex;
     margin-top: 120px;
