@@ -15,6 +15,11 @@ a{
     color: black;
 }
 
+Link{
+    font-family: "SF Mono Regular", serif;
+    font-size: 16px;
+}
+
 /*Main Container*/
 .mainContainer{
     width: 1056px;

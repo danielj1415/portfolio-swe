@@ -1,5 +1,10 @@
 
 @import "./fonts.css";
+Link{
+    font-family: "SF Mono Regular", serif;
+    font-size: 16px;
+}
+
 .projectContentContainerTitleInfo{
     display:flex;
     margin-top: 120px;
@@ -134,6 +139,8 @@
 
 .mediumParagraph{
     width: 820px;
+    font-family: "SF Mono Regular", serif;
+    font-size: 16px;
 }
 
 .marginTop8px{
