@@ -155,7 +155,7 @@ function PlantProject() {
                         Spotify API: Potentially integrating the Spotify API to access real user data, playlists, and
                         music content, if feasible and permitted. </p>
                     <p className="semibold px30 marginTop48px marginBottom8px ">Links:</p>
-                    <a href="https://github.com/danielj1415/nintendoSwitchUI2">Github</a>
+                    <a className = "link" href="https://github.com/danielj1415/nintendoSwitchUI2">Github</a>
                 </div>
 
                 <div className="footerSection">

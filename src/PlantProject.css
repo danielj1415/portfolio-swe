@@ -201,3 +201,13 @@
     height: 100%;
     width: 1056px;
 }
+
+.footerText2{
+    font-family: "SF Mono Regular", serif;
+    font-size: 20px;
+}
+
+.link{
+    font-family: "SF Mono Regular", serif;
+    font-size: 16px;
+}

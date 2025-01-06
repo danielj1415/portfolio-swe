@@ -1,3 +1,5 @@
+
+@import "./fonts.css";
 .projectContentContainerTitleInfo{
     display:flex;
     margin-top: 120px;
@@ -70,6 +72,8 @@
 
 .nintendoProjectDevelopmentParagraph{
     width: 336px;
+    font-family: "SF Mono Regular", serif;
+    font-size: 16px;
 }
 
 .dividerOverview{
@@ -124,8 +128,8 @@
 }
 
 .bigParagraph{
-    width: 1000px;
     font-family: "SF Mono Regular", serif;
+    width: 1000px;
 }
 
 .mediumParagraph{
@@ -153,8 +157,8 @@
 }
 
 .littleParagraph{
-    width: 455px;
     font-family: "SF Mono Regular", serif;
+    width: 455px;
 }
 
 .spaceBetween{
@@ -227,4 +231,14 @@
 .videoSpotifyProjectDemo{
     height: 100%;
     width: 1056px;
+}
+
+.footerText2{
+    font-family: "SF Mono Regular", serif;
+    font-size: 20px;
+}
+
+.link{
+    font-family: "SF Mono Regular", serif;
+    font-size: 16px;
 }

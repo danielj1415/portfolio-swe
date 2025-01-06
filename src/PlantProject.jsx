@@ -102,9 +102,9 @@ function PlantProject() {
                     <p className = "bigParagraph">In conclusion, this project was a huge test for my front-end design development skills as well as working with Firebase. I also had to work as part of a team that were working on different parts. In the end, this project was presented to hundreds of students and faculty in my university’s annual senior design conference where we were able to give live demonstrations of the application working with the physical device.</p>
                     <p className = "bigParagraph marginTop8px">For future plans for this project, my team and I are planning to actually use this to store our own plants and I am working on the API feature to show all the weather data. Another feature I am working on implementing are the graphs to showcase the PH and temperature over a set period of time. The Settings screen could be fleshed out by adding functionality to change the metric system as well as add the user’s location for accurate weather data.</p>
                     <p className = "semibold px30 marginTop48px marginBottom8px ">Links:</p>
-                    <a href = "https://github.com/danielj1415/PlantHydroponics2024">Github</a>
+                    <a className = "link" href = "https://github.com/danielj1415/PlantHydroponics2024">Github</a>
                     <p className = "marginBottom4px"></p>
-                    <a href = "https://docs.google.com/document/d/1ZGTXQLdsch2z4spO6EnwyWZu9NTcc0X-/edit?usp=sharing&ouid=104865549103208501675&rtpof=true&sd=true">Documentation</a>
+                    <a className = "link" href = "https://docs.google.com/document/d/1ZGTXQLdsch2z4spO6EnwyWZu9NTcc0X-/edit?usp=sharing&ouid=104865549103208501675&rtpof=true&sd=true">Documentation</a>
                     <p className = "semibold px30 marginTop48px">Pictures and Videos</p>
                     <div className = "horizontal spaceBetween marginTop8px">
                         <div>
@@ -136,10 +136,10 @@ function PlantProject() {
                         <p className = "footerPhone">phone: (626) 518-2422</p>
                         <div className = "iconContainer">
                             <a href="https://www.linkedin.com/in/daniel-jong-002891209/" target="_blank">
-                                <img src={iconLinkedIn} class="imageIcon" alt="LinkedIn Profile"/>
+                                <img src={iconLinkedIn} className="imageIcon" alt="LinkedIn Profile"/>
                             </a>
                             <a href="https://github.com/danielj1415" target="_blank">
-                                <img src={iconGithub} class="imageIcon" alt="GitHub Profile"/>
+                                <img src={iconGithub} className="imageIcon" alt="GitHub Profile"/>
                             </a>
                         </div>
                     </div>
