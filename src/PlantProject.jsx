@@ -65,7 +65,7 @@ function PlantProject() {
                     <img className = "marginTop16px" src = {plantProjectImageUserFlow}/>
                     <p className = "semibold px30 marginTop48px marginBottom8px">Mid-Fidelity Wireframes</p>
                     <p className = "bigParagraph">With the user-flow diagram designed, I was able to identify the key screens that needed to be created. Each screen began as an initial sketch and was then developed into a mid-fidelity wireframe. These wireframes were designed to showcase a simple interface while retaining all the necessary functionalities for the users.</p>
-                    <img className = "marginTop16px"src = {imagePlantProjectMidFidScreens}/>
+                    <img className = "marginTop16px" src = {imagePlantProjectMidFidScreens}/>
                     <p className = "semibold px30 marginTop48px">High-Fidelity Wireframes</p>
                     <div className = "horizontalTop marginTop16px">
                         <img className = "marginRight48px" src = {imagePlantProjectHighFidScreens}/>

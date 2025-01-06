@@ -154,6 +154,7 @@
 
 .littleParagraph{
     width: 455px;
+    font-family: "SF Mono Regular", serif;
 }
 
 .spaceBetween{
@@ -183,6 +184,7 @@
 .px12{
     font-size: 12px;
     text-align: center;
+    font-family: 'SF Mono Regular', serif;
 }
 
 .marginTop24px{

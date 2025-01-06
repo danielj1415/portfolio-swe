@@ -4,7 +4,7 @@
 }
 
 .SFMonoRegular{
-    font-family: "SF Mono";
+    font-family: "SF Mono Regular", serif;
     font-weight: 400;
 }
 
@@ -18,11 +18,11 @@
 
 .px16{
     font-size: 16px;
+    font-family: "SF Mono Regular", serif;
 }
 
 .bold{
-    font-family: "SF Mono";
-    font-weight: bold;
+    font-family: "SF Mono Bold", serif;
 }
 
 .projectContentTimeline{
@@ -85,7 +85,7 @@
 }
 
 .semibold{
-    font-family: "SF Mono";
+    font-family: "SF Mono SemiBold", serif;
     font-weight: 600;
 }
 
@@ -103,6 +103,7 @@
 
 .bigParagraph{
     width: 1000px;
+    font-family: "SF Mono Regular", serif;
 }
 
 .marginTop8px{
@@ -127,6 +128,7 @@
 
 .littleParagraph{
     width: 455px;
+    font-family: "SF Mono Regular", serif;
 }
 
 .spaceBetween{
