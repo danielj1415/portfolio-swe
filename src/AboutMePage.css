@@ -26,6 +26,7 @@
 
 .aboutMeParagraph{
     font-size: 18px;
+    font-family: "SF Mono Regular", serif;
 }
 
 .space{
@@ -33,14 +34,14 @@
 }
 
 .aboutMeHeading2{
-    font-family: "SF Mono";
+    font-family: "SF Mono Bold", serif;
     font-weight: bold;
     font-size: 28px;
     margin-bottom: 8px;
 }
 
 .aboutMeHeading2-5{
-    font-family: "SF Mono";
+    font-family: "SF Mono Bold", serif;
     font-weight: 600;
     font-size: 20px;
 }
@@ -66,7 +67,7 @@
 }
 
 strong{
-    font-family: "SF Mono";
+    font-family: "SF Mono Bold", serif;
     font-weight: 600;
     font-size: 20px;
 }
@@ -83,4 +84,5 @@ strong{
 
 .smallerText{
     font-size: 18px;
+    font-family: "SF Mono Regular", serif;
 }
